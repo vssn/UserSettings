@@ -1,0 +1,11 @@
+{
+    "workbench.colorTheme": "FlatUI Immersed",
+    "git.confirmSync": false,
+    "window.zoomLevel": 0,
+    "files.autoSave": "on",
+    "editor.fontSize": 13,
+    "workbench.editor.showTabs": false,
+    "editor.minimap.renderCharacters": false,
+    "editor.fontLigatures": false,
+    "workbench.iconTheme": "vs-minimal"
+}
