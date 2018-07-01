@@ -1,0 +1,32 @@
+{
+    "git.confirmSync": false,
+    "window.zoomLevel": 0,
+    "files.autoSave": "on",
+    "editor.fontSize": 13,
+    "editor.lineHeight": 26,
+    "workbench.editor.showTabs": false,
+    "editor.minimap.renderCharacters": false,
+    "editor.fontLigatures": false,
+    "workbench.iconTheme": "vs-minimal",
+    "python.pythonPath": "/usr/bin/python",
+    "python.linting.enabledWithoutWorkspace": false,
+    "workbench.activityBar.visible": true,
+    "explorer.confirmDragAndDrop": false,
+    "workbench.colorTheme": "FlatUI Immersed",
+    "gitlens.gitExplorer.files.layout": "auto",
+    "gitlens.keymap": "chorded",
+    "blade.format.enable": true,
+    "csharp.suppressDotnetInstallWarning": true,
+    "phpcs.executablePath": "/Users/stype/.composer/vendor/bin/phpcs",
+    "gitlens.advanced.messages": {
+        "suppressCommitHasNoPreviousCommitWarning": false,
+        "suppressCommitNotFoundWarning": false,
+        "suppressFileNotUnderSourceControlWarning": false,
+        "suppressGitVersionWarning": false,
+        "suppressLineUncommittedWarning": false,
+        "suppressNoRepositoryWarning": false,
+        "suppressResultsExplorerNotice": false,
+        "suppressShowKeyBindingsNotice": true
+    },
+    "gitlens.historyExplorer.enabled": true
+}
