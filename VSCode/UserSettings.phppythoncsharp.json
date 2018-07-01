@@ -17,7 +17,7 @@
     "gitlens.keymap": "chorded",
     "blade.format.enable": true,
     "csharp.suppressDotnetInstallWarning": true,
-    "phpcs.executablePath": "/Users/stype/.composer/vendor/bin/phpcs",
+    "phpcs.executablePath": "/Users/USER/.composer/vendor/bin/phpcs",
     "gitlens.advanced.messages": {
         "suppressCommitHasNoPreviousCommitWarning": false,
         "suppressCommitNotFoundWarning": false,
