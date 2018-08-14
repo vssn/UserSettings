@@ -1,15 +1,35 @@
 {
     "workbench.colorTheme": "FlatUI Immersed",
     "window.zoomLevel": 0,
-    "editor.fontSize": 13,
-    "editor.lineHeight": 26,
-    "workbench.editor.showTabs": false,
+    "editor.fontSize": 11,
+    "terminal.integrated.fontSize": 10,
+    "terminal.integrated.lineHeight": 1.2,
+    "terminal.integrated.fontFamily": "Courier",
+    "breadcrumbs.enabled": true,
+    "breadcrumbs.filePath": "on",
+    "breadcrumbs.symbolPath": "on",
+    "editor.lineHeight": 23,
+    "workbench.editor.showTabs": true,
     "editor.minimap.renderCharacters": false,
     "editor.fontLigatures": false,
     "workbench.iconTheme": "simple-icons",
     "explorer.confirmDragAndDrop": false,
     "editor.tokenColorCustomizations": {
-        "functions": "#ff5e00"
+        "functions": "#ff5e00",
+        "strings": "#0dc5b0",
+        "variables": "#0e83e2",
     },
-    "git.confirmSync": false
+    "workbench.colorCustomizations": {
+        "editor.inactiveSelectionBackground": "#eeeeee",
+        "editor.selectionBackground": "#bbddff",
+        "terminal.foreground" : "#1b3074",
+        "terminal.background" : "#f8f8f8"
+    },
+    "git.confirmSync": false,
+    "gitlens.keymap": "alternate",
+    "gitlens.historyExplorer.enabled": true,
+    "gitlens.advanced.messages": {
+        "suppressShowKeyBindingsNotice": true
+    },
+    "sasslint.configFile": "~/Development/.sasslint.yml"
 }
