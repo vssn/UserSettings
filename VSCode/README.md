@@ -10,6 +10,7 @@
 * ESLint (dbaeumer)
 * Nasc VSCode Touchbar
 * SVG Viewer
+* Simple icon theme
 
 
 ## Polymer
