@@ -2,9 +2,11 @@
 ## Extensions
 * Git Lens
 * Code Runner
-* JavaScript Snippets
+* Prettier
 * JS Refactor
-* FlatUI
+* Theme: Horizon Theme (Horizon Italic)
+* Material Icon Theme
+* Import Cost
 * DotENV
 * EditorConfig for VS Code
 * ESLint (dbaeumer)
@@ -13,7 +15,7 @@
 * Simple icon theme
 
 
-## Polymer
+## Polymer (Deprecated, see for Web components or ES Tools)
 * Polymer 2 Snippets
 * Polymer IDE
 * Polymer Syntax
@@ -25,13 +27,14 @@
 * C# ms-vscode.csharp
 
 ## Laravel
+* Better PHPUnit
 * Laravel Blade Snippets
 * Laravel Blade Spacer
 * laravel-goto-controller
 * PHPUnit emallin.phpunit
 * phpfmt - PHP Formatter kokororin.vscode-phpfmt
 * phpcs ikappas.phpcs
-* PHPIntelliSense Crane 
+* PHP Intelephense 
 * PHP Debug felixfbecker.php-debug
 
 ## CSS
