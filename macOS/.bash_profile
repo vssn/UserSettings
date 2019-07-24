@@ -13,7 +13,11 @@ alias pv='function packageVersion(){ cat package.json | grep "version"; };packag
 alias bshow='function bowerParamSearch(){ cat bower.json | grep "$1"; };bowerParamSearch'
 alias gitbranch='function gitBranchCreateSwitch(){ git branch $1; git checkout $1; };gitBranchCreateSwitch'
 
-alias profile='vim ~/.bash_profile'
-alias s-profile='source ~/.bash_profile'
+alias ns='npm start'
+alias nt='npm test'
+alias dup='cd laradock; docker-compose up -d nginx mysql; cd ..'
+alias ddown='cd laradock; docker-compose down; cd ..'
+alias vb='vim ~/.bash_profile'
+alias sb='source ~/.bash_profile'
 
 alias lg='git log --oneline --decorate --color'
