@@ -15,6 +15,7 @@ alias gitbranch='function gitBranchCreateSwitch(){ git branch $1; git checkout $
 
 alias ns='npm start'
 alias nt='npm test'
+alias nr='npm run' # See all commands
 alias dup='cd laradock; docker-compose up -d nginx mysql; cd ..'
 alias ddown='cd laradock; docker-compose down; cd ..'
 alias vb='vim ~/.bash_profile'
