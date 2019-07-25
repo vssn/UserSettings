@@ -18,6 +18,7 @@ alias nt='npm test'
 alias nr='npm run' # See all commands
 alias dup='cd laradock; docker-compose up -d nginx mysql; cd ..'
 alias ddown='cd laradock; docker-compose down; cd ..'
+alias dexec='cd laradock; docker-compose exec workspace bash; cd ..'
 alias vb='vim ~/.bash_profile'
 alias sb='source ~/.bash_profile'
 alias dip="docker inspect -f '{{range .NetworkSettings.Networks}}{{.IPAddress}}{{end}}' laradock_mysql_1"
