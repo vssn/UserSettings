@@ -13,12 +13,16 @@ alias pv='function packageVersion(){ cat package.json | grep "version"; };packag
 alias bshow='function bowerParamSearch(){ cat bower.json | grep "$1"; };bowerParamSearch'
 alias gitbranch='function gitBranchCreateSwitch(){ git branch $1; git checkout $1; };gitBranchCreateSwitch'
 
-alias ns='npm start'
-alias nt='npm test'
 alias nr='npm run' # See all commands
+alias ns='npm start'
+alias nrw="npm run start:watch"
+alias nt='npm test'
+alias ntw="npm run test:watch"
+
 alias dup='cd laradock; docker-compose up -d nginx mysql; cd ..'
 alias ddown='cd laradock; docker-compose down; cd ..'
 alias dexec='cd laradock; docker-compose exec workspace bash; cd ..'
+
 alias vb='vim ~/.bash_profile'
 alias sb='source ~/.bash_profile'
 alias dip="docker inspect -f '{{range .NetworkSettings.Networks}}{{.IPAddress}}{{end}}' laradock_mysql_1"
